@@ -17,6 +17,7 @@ public class htmlServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         PrintWriter writer = response.getWriter();
-        writer.write("");
+        writer.write("no");
+        writer.write("yes youdo");
     }
 }

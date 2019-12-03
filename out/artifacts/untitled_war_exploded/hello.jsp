@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>我是标题</title>
+    <title>Title</title>
 
 </head>
 <body>
@@ -16,7 +16,7 @@
 <%
     /*
     *
-    * 多行 的行为
+    * 多行
     * 注释
     * */
 int i=0;
