@@ -12,24 +12,27 @@
 
 </head>
 <body>
-//内部的JAVA代码翻译到SERVICE方法的内部<%--  jsp注释  --%>
+<%--  jsp注释  --%>
 <%
     /*
     *
     * 多行 的行为
     * 注释
     * */
+    //内部的JAVA代码翻译到SERVICE方法的内部
 int i=0;
 i++;
 %>
 
-//会被翻译成SERVICE方法内部的OUT.PRINT()
+
 <%="变量I=" +i
+//会被翻译成SERVICE方法内部的OUT.PRINT()
 %>
 
-//翻译成SERVLET的成员的内容  线程问题，不建议使用
+
 <%!
 int x = 0;
+//翻译成SERVLET的成员的内容  线程问题，不建议使用
 %>
 </body>
 </html>
