@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="servlet-api">
+    <CLASSES>
+      <root url="jar://D:/下载文件/servletapi_jb51/servletapi/servlet-api.jar!/" />
+      <root url="jar://D:/下载文件/servletapi_jb51/servletapi/javax.servlet-api-4.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
